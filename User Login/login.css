@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(netflix.png);
+}
+.frm_bslk {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-family: "Martian Mono", monospace;
+  font-size: xxx-large;
+}
+#spn {
+  color: red;
+  font-family: "Martian Mono", monospace;
+}
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+.frm {
+  background-color: rgb(159, 157, 157, 0.7);
+  width: fit-content;
+  margin: 5px auto;
+  padding: 25px;
+}
+.frm label {
+  color: white;
+  font-family: "Martian Mono", monospace 100;
+}
+
+.first_div {
+  display: block;
+}
+label {
+  display: inline-block;
+  width: 90px;
+}
+#name,
+#age,
+#email,
+#content {
+  width: 300px;
+  height: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+}
+#feedback {
+  margin-top: 10px;
+  padding: 10px 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.sbmt {
+  width: 25px;
+}
+
+.btn_container {
+  text-align: center;
+}
+
+.btn_container input {
+  width: 120px;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  margin-top: 15px;
+  color: white;
+  font-size: large;
+  background-color: rgb(251, 0, 0);
+}
+.btn_container input:hover {
+  background-color: rgb(34, 193, 82);
+  color: rgb(237, 51, 224);
+}
